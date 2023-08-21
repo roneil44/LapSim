@@ -14,5 +14,7 @@ Suspension:
   wheelbase: 2.0 #meters Wheel base length front to back
   front width: 1.2 #meters center line of tire to centerline of tire
   rear width: 1.5  #meters
+  compression ratio: [1,1,1,1] #Front Left, Front Right, Back Left, Back Right
+  spring constant: [200, 200, 200, 200] #Newton x meters 
 
   
