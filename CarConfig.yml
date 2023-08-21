@@ -1,0 +1,18 @@
+---
+Mass Data:
+  mass: 200 #kg
+  cog: [0.0, .25, 1.0] #xyz where x is distance off of centerline (positive to right of driver);
+  # y is height off of the ground at x and z direction at rest; 
+  # z is distance in front of line defined by the center of both rear tires at rest
+
+  interia: [] #xyz about cog
+  # Note: The rotational center (x,z) likely differs from cog so a transform will need to be applied to determine effective inertia
+
+
+Suspension:
+  
+  wheelbase: 2.0 #meters Wheel base length front to back
+  front width: 1.2 #meters center line of tire to centerline of tire
+  rear width: 1.5  #meters
+
+  
